@@ -1,0 +1,11 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev":"python api.py"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
