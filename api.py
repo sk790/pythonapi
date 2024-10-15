@@ -3,6 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 @app.route('/run-python', methods=['POST'])
+@app.route('/hello', methods=['GET'])
 def run_python():
     data = request.json
     name = data.get('name', 'User')
