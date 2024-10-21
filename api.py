@@ -6,6 +6,7 @@ import argparse
 app = Flask(__name__)
 
 @app.route('/run-python', methods=['POST'])
+
 @app.route('/hello', methods=['GET'])
 def run_python():
     def highlightFace(net, frame, conf_threshold=0.7):
