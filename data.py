@@ -1,8 +1,4 @@
-from flask import Flask, request, jsonify
-
-app = Flask(__name__)
-
-indian_population = [
+data = [
   {
     "Year": 2024,
     "Population": 1450935791,
@@ -259,11 +255,3 @@ indian_population = [
     "India Global Rank": 2
   }
 ]
-
-
-@app.route('/run-+', methods=['POST'])
-
-def run_python():
-    return indian_population
-if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=5000)
