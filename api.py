@@ -261,7 +261,7 @@ indian_population = [
 ]
 
 
-@app.route('/run-+', methods=['POST'])
+@app.route('/run-python', methods=['GET'])
 
 def run_python():
     return indian_population
